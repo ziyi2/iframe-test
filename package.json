@@ -1,0 +1,22 @@
+{
+  "name": "iframe-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziyi2/iframe-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziyi2/iframe-test/issues"
+  },
+  "homepage": "https://github.com/ziyi2/iframe-test#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

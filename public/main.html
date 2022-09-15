@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <iframe src="iframe.html"></iframe>
+    <script>
+        var a = 1;
+        var iframe = document.querySelector("iframe");
+        iframe.onload = function () {
+            iframe.contentWindow.func();
+            console.log('iframe a: ', iframe.contentWindow.a);
+            console.log('main a: ', a);
+        }
+    </script>
+</body>
+
+</html>
