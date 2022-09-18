@@ -1,15 +1,10 @@
 <html>
+<title>站点隔离测试</title>
 
 <body>
     <iframe src="iframe.html"></iframe>
-    <script>
-        var a = 1;
-        var iframe = document.querySelector("iframe");
-        iframe.onload = function () {
-            iframe.contentWindow.func();
-            console.log('main a: ', a);
-        }
-    </script>
+    <iframe src="https://mail.163.com/" frameborder="0"></iframe>
+    <iframe src="https://mail.qq.com/" frameborder="0"></iframe>
 </body>
 
 </html>
